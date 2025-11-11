@@ -247,6 +247,7 @@ def apply_job(job_id):
 
 if __name__ == '__main__':
     print("✅ MongoDB connected successfully!")
+    print("Jenkins Setup Complete!")
     print("🚀 Starting Flask application with Waitress server...")
     print(f"📁 Upload folder: {app.config['UPLOAD_FOLDER']}")
     print("🌐 Access at: http://127.0.0.1:5000")
